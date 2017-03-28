@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Core-ASCII-Parser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core-ASCII-Parser.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Core-ASCII-Parser_Global.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VERSION.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{63fd74e5-6757-42a5-a661-fae53b307979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6f991154-d9fe-49cf-b981-ac217e02472e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output">
+      <UniqueIdentifier>{fa13ad98-e766-431f-96ed-e37204e89062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\x64">
+      <UniqueIdentifier>{c27f6344-3e91-431d-b018-207c6aedb659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\x86">
+      <UniqueIdentifier>{cac00915-45b7-4967-86e1-86f0434701d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\x64\Release\Core-ASCII-Parser.lib">
+      <Filter>Output\x64</Filter>
+    </Library>
+    <Library Include="..\x64\Debug\Core-ASCII-Parserd.lib">
+      <Filter>Output\x64</Filter>
+    </Library>
+    <Library Include="..\Win32\Release\Core-ASCII-Parser.lib">
+      <Filter>Output\x86</Filter>
+    </Library>
+    <Library Include="..\Win32\Debug\Core-ASCII-Parserd.lib">
+      <Filter>Output\x86</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Release\Core-ASCII-Parser.dll">
+      <Filter>Output\x64</Filter>
+    </None>
+    <None Include="..\x64\Debug\Core-ASCII-Parserd.dll">
+      <Filter>Output\x64</Filter>
+    </None>
+    <None Include="..\x64\Debug\Core-ASCII-Parserd.pdb">
+      <Filter>Output\x64</Filter>
+    </None>
+    <None Include="..\Win32\Release\Core-ASCII-Parser.dll">
+      <Filter>Output\x86</Filter>
+    </None>
+    <None Include="..\Win32\Debug\Core-ASCII-Parserd.dll">
+      <Filter>Output\x86</Filter>
+    </None>
+    <None Include="..\Win32\Debug\Core-ASCII-Parserd.pdb">
+      <Filter>Output\x86</Filter>
+    </None>
+  </ItemGroup>
+</Project>

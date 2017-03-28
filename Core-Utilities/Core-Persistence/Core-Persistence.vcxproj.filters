@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Core-Persistence.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core-Persistence.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VERSION.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{b9ab2d27-b479-4219-8dfd-baee4e2ad97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c2c00925-8558-4e4c-b1d2-65f6708e07d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output">
+      <UniqueIdentifier>{6b78a75a-5e51-44e2-83d1-2c25826dbad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\x64">
+      <UniqueIdentifier>{928857f3-db0b-4787-912b-33d3e778d322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\x86">
+      <UniqueIdentifier>{9a9e3a2c-be8c-4a57-8eb2-575757e80d29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\x64\Release\Core-Persistence.lib">
+      <Filter>Output\x64</Filter>
+    </Library>
+    <Library Include="..\x64\Debug\Core-Persistenced.lib">
+      <Filter>Output\x64</Filter>
+    </Library>
+    <Library Include="..\Win32\Debug\Core-Persistenced.lib">
+      <Filter>Output\x86</Filter>
+    </Library>
+    <Library Include="..\Win32\Release\Core-Persistence.lib">
+      <Filter>Output\x86</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

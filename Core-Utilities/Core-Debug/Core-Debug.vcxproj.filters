@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\x64\Release\moc_Core-Debug.cpp">
+      <Filter>Generierte Dateien\x64\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\x64\Debug\moc_Core-Debug.cpp">
+      <Filter>Generierte Dateien\x64\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Core-Debug.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Win32\Debug\moc_Core-Debug.cpp">
+      <Filter>Generierte Dateien\x86\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Win32\Release\moc_Core-Debug.cpp">
+      <Filter>Generierte Dateien\x86\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Win32\DevelDebug\moc_Core-Debug.cpp">
+      <Filter>Generierte Dateien\x86\DevelDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Win32\DevelRelease\moc_Core-Debug.cpp">
+      <Filter>Generierte Dateien\x86\DevelRelease</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\x64\DevelDebug\moc_Core-Debug.cpp">
+      <Filter>Generierte Dateien\x64\DevelDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\x64\DevelRelease\moc_Core-Debug.cpp">
+      <Filter>Generierte Dateien\x64\DevelRelease</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core-Debug_Global.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VERSION.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generierte Dateien">
+      <UniqueIdentifier>{830b977f-a288-4243-89e7-87d785e485fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x64">
+      <UniqueIdentifier>{b8302b15-0f29-4cf9-870d-dfcfea220204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x86">
+      <UniqueIdentifier>{5e1b151c-24a9-4f34-9f7c-db11c584c8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{2e96f1e9-7d54-4b2c-a7fe-a64ac5a3b882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{39ffe631-6c2b-4017-af29-503711909181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output">
+      <UniqueIdentifier>{3f7b8a95-e820-440e-9bd7-2aad2f271022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\x86">
+      <UniqueIdentifier>{7abe1c43-462a-4fa3-8464-ab4b130597fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\x64">
+      <UniqueIdentifier>{d6c9fd49-ac74-4e36-896d-00c86395ed15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x86\Debug">
+      <UniqueIdentifier>{f2e09ac2-2c5f-4270-8093-df8cabfc812f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x86\Release">
+      <UniqueIdentifier>{060b3263-1cdf-4f97-9748-f7f12d5c8917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x64\Debug">
+      <UniqueIdentifier>{900afba3-32fb-4b23-abbd-4ef503faced9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x64\Release">
+      <UniqueIdentifier>{99ba5e5f-870a-416a-8ed4-ec744eb4242a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x64\DevelDebug">
+      <UniqueIdentifier>{62035c21-f08a-4606-a55f-790950c784dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x86\DevelDebug">
+      <UniqueIdentifier>{529cb10f-0b71-4e9a-8045-f8fad5fee0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x86\DevelRelease">
+      <UniqueIdentifier>{8a12665b-ee3c-4b3f-b277-54b64fd7138a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\x64\DevelRelease">
+      <UniqueIdentifier>{306a2692-364b-4142-acc0-af9146cd3436}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Release\Core-Debug.dll">
+      <Filter>Output\x64</Filter>
+    </None>
+    <None Include="..\x64\Debug\Core-Debugd.dll">
+      <Filter>Output\x64</Filter>
+    </None>
+    <None Include="..\x64\Debug\Core-Debugd.pdb">
+      <Filter>Output\x64</Filter>
+    </None>
+    <None Include="..\Win32\Debug\Core-Debugd.dll">
+      <Filter>Output\x86</Filter>
+    </None>
+    <None Include="..\Win32\Debug\Core-Debugd.pdb">
+      <Filter>Output\x86</Filter>
+    </None>
+    <None Include="..\Win32\Release\Core-Debug.dll">
+      <Filter>Output\x86</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\x64\Release\Core-Debug.lib">
+      <Filter>Output\x64</Filter>
+    </Library>
+    <Library Include="..\x64\Debug\Core-Debugd.lib">
+      <Filter>Output\x64</Filter>
+    </Library>
+    <Library Include="..\Win32\Debug\Core-Debugd.lib">
+      <Filter>Output\x86</Filter>
+    </Library>
+    <Library Include="..\Win32\Release\Core-Debug.lib">
+      <Filter>Output\x86</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Core-Debug.h">
+      <Filter>Header</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
